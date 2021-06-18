@@ -27,7 +27,7 @@ add_definitions("-std=c++11")
 include(cmake/setup.cmake)
 
 # Locate external dependencies
-find_package(OpenCV REQUIRED COMPONENTS core highgui imgproc imgcodecs)
+find_package(OpenCV 3.2 REQUIRED COMPONENTS core highgui imgproc imgcodecs)
 find_package(Boost 1.54 REQUIRED COMPONENTS system filesystem graph)
 find_package(Sophus REQUIRED)
 
